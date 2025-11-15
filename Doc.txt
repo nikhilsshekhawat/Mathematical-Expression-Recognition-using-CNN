@@ -1,0 +1,6 @@
+1. Training CNN over .data/train
+2. Validation performed on .data/eval
+3. Taking Handwritten mathematical input and separating each digit/signs whenever np.sum > threshold (white space > set threshold pixels).
+   Storing all obtained digits in a folder
+4. Iterating all images in folder and obtaining it's output using our model
+5. Return output is same sequence as input
